@@ -1,0 +1,6 @@
+project Uniq is
+
+   for Object_Dir use "obj";
+   for Main use ("test_uniq.adb");
+
+end Uniq;
