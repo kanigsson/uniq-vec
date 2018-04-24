@@ -1,7 +1,10 @@
 # Example of SPARK using Vectors
 
-This small example shows the implementation and proof of Leftpad in SPARK, to
-answer this [challenge](https://twitter.com/Hillelogram/status/987432183072731138).
+This small example shows the implementation and proof of Uniq in SPARK, to
+answer this
+[challenge](https://twitter.com/Hillelogram/status/987432183072731138). The
+example defines a function that accepts a vector as argument, and returns a
+vector that contains the same elements, with duplicates removed.
 
 You can verify the proof using SPARK as follows:
 
