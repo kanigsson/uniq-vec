@@ -8,14 +8,14 @@ vector that contains the same elements, with duplicates removed.
 
 You can verify the proof using SPARK as follows:
 
-$ gnatprove -P test --report=all --prover=cvc4,z3
+$ gnatprove -P uniq --prover=cvc4,z3
 
 and compile and run the simple test case as follows using [GNAT
 Pro](https://www.adacore.com/gnatpro):
 
 ```bash
 
-$ gprbuild -p -P test
-$ ./obj/test_padding
+$ gprbuild -p -P uniq
+$ ./obj/test_uniq
 
 ```
